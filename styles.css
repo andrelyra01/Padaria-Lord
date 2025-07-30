@@ -224,6 +224,42 @@ text-decoration: none;
  border-bottom: 1px solid #242424;
 }
 
+@media (max-width:1000px){
+  .Galeria-1 {
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .Galeria-2 {
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   
+   
+  }
+
+  .Galeria-2 img {
+   
+    width: 100%;
+  }
+
+  .titulo {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .menu ul {
+    margin-right: 20px;
+    
+  }
+  .menu-header .logo {
+    margin-left: 20px;
+  }
+
+ 
+}
+
+
+
+
 /* Responsivo */
 @media (max-width:700px){
   .Galeria-1 {
