@@ -60,8 +60,8 @@ body {
 }
 
 .img-fundo img {
-  width: 85%;
-  height: 500px;
+  width: 70%;
+  height: 800px;
   border-radius: 4px;
   margin-top: 80px;
   object-fit: cover;
@@ -150,9 +150,7 @@ body {
   grid-template-columns: repeat(3,1fr);
   margin-left: 40px;
   margin-right: 40px;
- 
   gap: 10px;
-  
 
 }
 
@@ -160,7 +158,6 @@ body {
 .Galeria-2 {
   display: grid;
   grid-template-columns: repeat(3,1fr);
- 
   margin-left: 40px;
   margin-right: 40px;
   gap: 10px;
@@ -184,14 +181,14 @@ body {
 
 .Galeria-1 img {
   border-radius: 4px;
-  width: 100%;
+  width: 90%;
   height: 300px;
   object-fit: cover;
 }
 .Galeria-2 img {
   background-size: cover;
   border-radius: 4px;
-  width: 100%;
+  width: 90%;
   height: 300px;
   object-fit: cover;
 }
