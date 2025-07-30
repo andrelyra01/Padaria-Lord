@@ -235,12 +235,11 @@ body {
   display: grid;
   justify-items: center;
   align-self: center;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(4,1fr);
   width: 100%;
-  margin-top: 50px;
-  margin-top: 180px;
-  height: 70px;
-  
+  margin-top: 150px;
+  height: 90px;
+  padding-bottom: 20px;
   
 }
 
@@ -331,6 +330,11 @@ color: #000;
 
   .img-fundo img {
     height: 400px;
+  }
+
+  .list-rodape {
+    grid-template-columns: repeat(2,1fr);
+    padding-bottom: 20px;
   }
 }
 
