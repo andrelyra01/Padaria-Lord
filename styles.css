@@ -33,6 +33,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 80px;
+  margin-bottom: 50px;
   height: 200px;
 }
 
@@ -59,9 +60,10 @@ body {
 }
 
 .img-fundo img {
-  width: 95%;
-  height: 600px;
+  width: 80%;
+  height: 400px;
   border-radius: 4px;
+  margin-top: 80px;
   object-fit: cover;
  
 }
@@ -121,17 +123,20 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+  background-position: center center;
   width: 100%;
   
-  
+ 
+   
+ 
 }
 
-#img-fundo-back img {
+.img-card1 {
   margin-top: 80px;
-  margin-right: 20px;
-  margin-left: 20px;
-  width: 100%;
+  width: 95%;
+  height: 800px;
+  border-radius: 4px;
+  object-fit: cover;
 }
 
 #img-fundo-back h1 {
@@ -155,12 +160,11 @@ body {
 .Galeria-2 {
   display: grid;
   grid-template-columns: repeat(3,1fr);
+ 
   margin-left: 40px;
   margin-right: 40px;
   gap: 10px;
  
-  
-
 }
 
 .subtitlecaixa {
@@ -172,6 +176,7 @@ body {
 }
 .subtitlecaixa-2 {
   display: flex;
+  align-self: center;
   align-items: center;
   justify-content: center;
   height: 300px;
