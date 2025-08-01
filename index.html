@@ -2,90 +2,97 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Landing Page</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0&icon_names=close" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&icon_names=menu_open" />
+<link rel="stylesheet" href="styles.css">
+    <title>Padaria Lord</title>
     
 </head>
 <body>
    
-   <main class="container-geral">
-        <header class="menu-header">
-                <a class="logo" href=""><img class="img-logo" src="imagens/logo.jpg" alt=""></a>
-                <nav class="menu">
-                    <ul >
-                        <li><a href="#padaria">A padaria</a></li>
-                        <li><a href="#delicias">Cardapio</a></li>
-                        <li><a href="#img-fundo-back">Pedidos</a></li>
-                    </ul>
-                </nav>
-        </header>
-
-        <div id="img-fundo-back">
-            <h1 id="pedidos">Padaria Lord</h1>
-            <img class="img-card1" src="imagens/fundo-back.jpg" alt="">
+ <main class="container-geral">
+   <header>
+     <nav class="nav-bar">
+        <div class="logo">
+            <h1><img src="img/logo.jpg" alt=""></h1>
         </div>
-
-        <div class="container-video">
-            <h2 class="title-trabalhos">Noosos Trabalhos</h2>
-            <div class="video-paes">
-                <video controls loop   src="Midia/paes.mp4"></video>
-                <video controls loop  src="Midia/galeria.mp4"></video>
-                <video controls loop  src="Midia/doces.mp4"></video>
-               
-               
+        <div class="nav-list">
+            <ul>
+            <li class="nav-item"><a href="#pedidos" class="nav-link">A Padaria</a></li>
+            <li class="nav-item"><a href="#delicias" class="nav-link">Cardapio</a></li>
+            <li class="nav-item"><a href="#padaria" class="nav-link">Ambiente</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Nossa Historia</a></li>
+            </ul>
+        </div>
+            <div class="login-button">
+                <button><a href="#">Entrar</a></button>
             </div>
+        <!-- RESPONSIVO DO MENU -->
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()">
+            <img src="img/menu_white_36dp.svg" alt="" class="icon"> 
+            </button>
         </div>
-                                
-        <div class="titulo">
-
-            <h1>Especialistas em café da manhã</h1>
-
+      </nav>
+        <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a href="#" class="nav-link">A Padaria</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Cardapio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Ambiente</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Nossa Historia</a></li>
+      </ul>
+        <div class="login-button">
+          <button><a href="#">Entrar</a></button>
         </div>
+        </div>
+    </header>
+    <div id="card-lord">
+        <h1 id="pedidos">Padaria Lord</h1>
+        <img class="img-card1" src="img/fundo-back.jpg" alt="">
+    </div>
       
-        <section id="img-1" class="img-fundo">
-
-            <img src="imagens/Fundo-tela.jpg" alt="">
-
-        </section>
-
-        <section id="delicias" class="subtitlecaixa">
-
-            <h2 class="subtitle">Delicias Feitas Na Hora</h2>
-
-        </section>
-
-       <section class="Galeria-1">
+    <div class="titulo">
+        <h1>Especialistas em café da manhã</h1>
+    </div>
+      
+    <section id="img-1" class="img-fundo">
+             <img src="img/Fundo-tela.jpg" alt="">
+            </section>
+            <section class="subtitlecaixa">
+             <h2 id="delicias"  class="subtitle">Delicias Feitas Na Hora</h2>
+            </section>
+    <section class="Galeria-1">
         
            <div>
-               <img src="imagens/bananas-282313_640.jpg" alt="">
+               <img src="img/bananas-282313_640.jpg" alt="">
                
            </div>
          
            <div>
-               <img src="imagens/cookies-8082386_640.jpg" alt="">
+               <img src="img/cookies-8082386_640.jpg" alt="">
                
            </div>
            <div>
-               <img src="imagens/sweet-7972193_640.jpg" alt="">
+               <img src="img/sweet-7972193_640.jpg" alt="">
                
            </div>
            <div>
-               <img src="imagens/bananas-282313_640.jpg" alt="">
+               <img src="img/bananas-282313_640.jpg" alt="">
                
            </div>
          
            <div>
-               <img src="imagens/cookies-8082386_640.jpg" alt="">
+               <img src="img/cookies-8082386_640.jpg" alt="">
               
            </div>
            <div>
-               <img src="imagens/sweet-7972193_640.jpg" alt="">
+               <img src="img/sweet-7972193_640.jpg" alt="">
               
            </div>
-       </section>
+    </section>
 
         <section id="padaria" class="subtitlecaixa-2">
             <h2 class="subtitle">Ambiente Perfeito</h2>
@@ -95,16 +102,16 @@
         <section  class="Galeria-2">
         
            <div>
-               <img src="imagens/ambiente-01.jpg" alt="">
+               <img src="img/ambiente-01.jpg" alt="">
                
            </div>
          
            <div>
-               <img src="imagens/ambiente-02.jpg" alt="">
+               <img src="img/ambiente-02.jpg" alt="">
                
            </div>
            <div>
-               <img src="imagens/sweet-7972193_640.jpg" alt="">
+               <img src="img/sweet-potatoes-8295778_640.jpg" alt="">
                
            </div>
          
@@ -117,6 +124,7 @@
             <li><a href="">Ouvidoria</a></li>
         </ul>
        </footer>
-   </main>
+ </main>
 </body>
+<script src="js/script.js"></script>
 </html>
