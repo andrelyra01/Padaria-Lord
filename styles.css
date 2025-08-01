@@ -91,7 +91,7 @@ header {
   font-family:"Playwrite AU NSW", cursive;
 }
 
-.login-button button {
+.login-button  {
   border: none;
   background-color: #d08787;
   padding: 15px 30px;
@@ -99,7 +99,7 @@ header {
   
 }
 
-.login-button button:hover{
+.login-button:hover{
   cursor: pointer;
   transition: background 0.3s;
   background-color: #df6e6e;
@@ -119,13 +119,7 @@ header {
 
 
 /* RESPONSIVO MOBILE */
-.mobile-menu-icon {
-  display: none;
-}
 
-.mobile-menu {
-  display: none;
-}
 
 
 .img-fundo {
@@ -420,7 +414,6 @@ color: #000;
     display: flex;
     flex-direction: column;
     text-align: center;
-    
     padding-bottom: 1rem;
   }
 
@@ -431,7 +424,13 @@ color: #000;
   }
 
   .mobile-menu .login-button {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
     display: block;
+    width: 50%;
+    margin-top: 10px;
     padding: 1rem 2rem;
   }
 
