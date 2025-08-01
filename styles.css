@@ -158,6 +158,7 @@ header {
 }
 
 .container-video {
+  text-align: center;
   margin-top: 150px;
   width: 100%;
  
@@ -190,10 +191,6 @@ header {
   height: 400px;
  
 }
-
-
-
-
 
 
 
@@ -332,6 +329,17 @@ color: #000;
   cursor: pointer;
   border-bottom: 1px solid #242424;
 }
+
+/* responsivo mobile */ 
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+ 
+
 
 
 
