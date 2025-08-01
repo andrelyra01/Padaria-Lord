@@ -154,7 +154,7 @@ header {
 .container-video {
   text-align: center;
   margin-top: 150px;
-  width: 100%;
+ 
  
  
 }
@@ -166,25 +166,27 @@ header {
 
 
 
+
+
+
 .video-paes {
   display: flex;
   align-self: center;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  
   margin-top: 150px;
-  max-width: 100%;
+ 
 }
 
 
 .video-paes video {
  object-fit: cover;
   border-radius: 4px;
-  width: 300px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
  
-}
+} 
 
 
 
@@ -199,15 +201,25 @@ header {
 
 
 #card-lord h1 {
-  margin-top: 150px;
-  margin-bottom: 10px;
+ 
+ margin-top: 60px;
   font-family: "Playwrite AU NSW", cursive;;
+}
+
+.trabalhos {
+  
+ text-align: center;
+}
+
+.trabalhos h2 {
+  margin-top: 100px;
 }
 
 .img-card1 {
   margin-top: 80px;
+  margin-bottom: 100px;
   width: 95%;
-  height: 800px;
+  height: 700px;
   border-radius: 4px;
   object-fit: cover;
 }
@@ -332,23 +344,40 @@ color: #000;
 .mobile-menu {
   display: none;
 }
- 
-
-
 
 
 /* Responsivo */
 
-@media (max-width:1000px){
+@media (max-width:1047px){
 
+
+  .container-video {
+  
+    display: flex;
+    justify-content: center;
+    
+  }
+
+ 
+  
     .video-paes {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    align-self: center;
+   
     gap: 20px;
     margin-top: 150px;
-    max-width: 100%;
-}
+    width: 50%;
+} 
+
+  .video-paes video {
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 80%;
+  }
+
 
 
   .Galeria-1 {
@@ -441,6 +470,33 @@ color: #000;
   /* quando essa class aparecer no js o menu vai aparecer */
   .open {
     display: block;
+  }
+ .container-video {
+  
+    display: flex;
+    justify-content: center;
+    
+  }
+
+ 
+  
+    .video-paes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 20px;
+    margin-top: 150px;
+    width: 50%;
+    
+} 
+
+  .video-paes video {
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 80%;
+    height: 400px;
   }
 
 }
