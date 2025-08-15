@@ -166,6 +166,8 @@ header {
 
 
 
+
+
 /* RESPONSIVO FAZ APARECER COM O TAMANHO DA TELA */
 @media screen and (max-width: 730px ){
   .nav-bar{
@@ -217,6 +219,21 @@ header {
     display: block;
   }
 
+
+
+}
+
+
+@media screen and (max-width:400px) {
+  .title-historia h1 {
+    margin-right: 50px;
+    font-size: 25px;
+   
+  }
+
+  span {
+    width: 100%;
+  }
 }
 
 
