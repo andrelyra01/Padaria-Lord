@@ -254,8 +254,9 @@ header {
 
 @media screen and (max-width:400px) {
   .title-historia h1 {
+    text-align: center;
     margin-right: 50px;
-    font-size: 25px;
+    font-size: 20px;
    
   }
 
