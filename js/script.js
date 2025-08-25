@@ -1,3 +1,13 @@
+window.sr = ScrollReveal({reset:true});
+
+
+ sr.reveal('.title-lord', {
+      distance:'90px',
+      origin:'left',
+      reset: true,
+      delay:400,
+     
+});
 
 
 
