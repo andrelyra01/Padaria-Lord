@@ -834,9 +834,9 @@ color: #000;
 
 
   
-.nav-bar .mobile-menu-icon {
+  .nav-bar .mobile-menu-icon {
   display: flex;
-}
+  }
 
   /* tratando o botao icon */
   .mobile-menu-icon button {
